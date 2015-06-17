@@ -12,4 +12,16 @@
   <modules>
     <module>simple-parent</module>
   </modules>
+    <distributionManagement>
+	<repository>
+		<id>deployment</id>
+		<name>Nexus Repo</name>
+		<url>http://localhost:9090/nexus-2.11.3-01/content/repositories/releases/</url>
+	</repository>
+	<snapshotRepository>
+		<id>deployment</id>
+		<name>Nexus Repo</name>
+		<url>http://localhost:9090/nexus-2.11.3-01/content/repositories/snapshots/</url>
+	</snapshotRepository>
+   </distributionManagement> 	
 </project>
